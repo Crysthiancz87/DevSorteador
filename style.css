@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 26px;
+    color: #FFFFFF;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    Width: 342px;
+    Height: 74px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.min {
+    margin-right: 62px;
+}
+
+button {
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    width: 342px;
+    height: 72px;
+    top: 858px;
+    border-radius: 10px;
+    color: beige;
+    text-shadow: 2px 2px 5px black;
+    font-size: 36px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 40px auto;
+    display: block;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+.dado {
+    height: 250px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 90%;
+        margin: 10px 10px;
+    }
+
+    .dado {
+        max-width: 70%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 50%;
+        Height: auto;
+        font-size: 20px;
+    }
+
+    button {
+        width: 60vw;
+        font-size: 25px;
+    }
+
+    .max {
+        margin-top: 10px;
+    }
+
+    .min {
+        margin-right: 0;
+    }
+}
