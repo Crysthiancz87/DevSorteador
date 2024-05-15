@@ -5,3 +5,5 @@ following the teachings of <a href="https://rodolfomori.com.br/devclub/" target=
 being employed: HTML, CSS, JavaScript and also taking care of responsiveness.</h4>
 <br>
 <br> link to see it: aaa
+
+<img src="./DevSorteador.png">
